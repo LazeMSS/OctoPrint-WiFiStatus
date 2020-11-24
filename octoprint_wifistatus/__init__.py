@@ -155,6 +155,7 @@ class WiFiStatusPlugin(
             "interface": self._settings.get(["interface"]),
             "interfaces": self._interfaces,
             "showBSSID": self._settings.get_boolean(["showBSSID"]),
+            "showFrequency": self._settings.get_boolean(["showFrequency"]),
             "showIPV4Addr": self._settings.get_boolean(["showIPV4Addr"]),
             "showIPV6Addr": self._settings.get_boolean(["showIPV6Addr"]),
         }
