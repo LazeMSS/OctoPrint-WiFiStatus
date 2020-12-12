@@ -14,6 +14,17 @@ This plugin only works on Linux, and requires that OctoPrint be running under Py
 
 You can configure whether the plugin will display:
 
-- The Access Point BSSID
+- The access point BSSID
+- The WiFi channel frequency
 - The IPV4 address(es) assigned to the WiFi interface
-- The IPV6 assress(es) assignes to the WiFi interface
+- The IPV6 address(es) assigned to the WiFi interface
+
+# Acknowledgements
+
+This plugin includes and is heavily dependent on Python3Wifi (https://github.com/ManuelMcLure/python3wifi), a fork of PythonWifi (https://pythonwifi.tuxfamily.org). Thanks to Róman Joost and Sean Robinson for making PythonWifi available.
+
+# License
+
+The plugin is licensed under the GNU Affero General Public License. See `LICENSE.md` for details.
+
+Python3Wifi is licenced under the GNU Lesser General Public License. See `octoprint_wifistatus/pythonwifi/LICENSE.md` for details.
